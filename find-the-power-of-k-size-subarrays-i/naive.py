@@ -1,6 +1,8 @@
 # Time complexity: O(nk)
 # Space complexity: O(n+k)
 
+from typing import List
+
 class Solution:
     def power(self, nums):
         if len(nums) == 1:
